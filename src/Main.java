@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Tudo bem?");
-        System.out.println("Subtração: " + (10 - 5));
-        System.out.println("Soma: " + (10 + 5));
+        var nome = "Carros";
+        var ano = 2003;
+        var nota = 9.2;
+        System.out.println("O filme " + nome + " que teve o seu lançamento no ano de " + ano + " possui a nota de " + nota);
     }
 }
